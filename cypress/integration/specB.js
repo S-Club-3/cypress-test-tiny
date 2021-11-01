@@ -6,7 +6,7 @@ context('spec B', () => {
   it('fails after 5 seconds', function () {
     cy.wait(5024)
       .then(() => {
-        expect(true).to.be.false;
+        expect(true).to.be.true;
       })
   })
 })
